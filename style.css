@@ -1,0 +1,41 @@
+body {
+  font-family: "Jaldi", sans-serif;
+}
+header {
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+  margin: 50px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #000000;
+  font-family: "Jaldi", sans-serif;
+  font-size: 100px;
+}
+
+.currently {
+  color: #000000;
+  size: 50px;
+  font-style: bold;
+  font-family: "Jaldi", sans-serif;
+}
+
+div .col {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 28px;
+  border: 10px #ff4e50;
+}
+
+.search-form {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-success w-100 {
+  border-radius: 10px;
+  border: 10px;
+  color: #ffffff;
+}

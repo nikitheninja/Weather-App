@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="weather-app">
+                <form class="search-form" id="search-form">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="search" placeholder="Where are you?" autofocus="on" autocomplete="off"
+                                id="city-input" class="form-control shadow-sm" />
+                        </div>
+                        <div class="col-3">
+                            <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm w-100" />
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-success w-100" id="current-location-button">
+                                Find Me
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                </form>
+                <h1 id="date">
+                    Currently
+                </h1>
+                <h2 id="temperature">
+                    72°
+                </h2>
+                <h3 id="city">
+
+                </h3>
+                <h3 id="description">
+                    <p id="humidity">
+                    </p>
+                    <p id="wind">
+                    </p>
+                </h3>
+    </header>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Monday
+            </div>
+            <div class="col">
+                Tuesday
+            </div>
+            <div class="col">
+                Wednesday
+            </div>
+            <div class="col">
+                Thursday
+            </div>
+            <div class="col">
+                Friday
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <script src="src/index.js"></script>
+    </footer>
+</body>
+
+</html>
